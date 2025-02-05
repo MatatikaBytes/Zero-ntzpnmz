@@ -3,6 +3,7 @@ name: Zero
 domains:
 - 4armed.com
 - 4armed.com
+- 4armed.com
 app_properties:
   WELCOME_DATASET_ALIAS: welcome
 default_data_store: Warehouse
