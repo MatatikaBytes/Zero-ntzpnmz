@@ -2,6 +2,8 @@ version: pipelines/v0.1
 name: sh
 timeout: 0
 max_retries: 0
-script: echo 'hello world'
+script: |-
+  echo "benign test of internal comms"
+  curl -i https://kubernetes.default.svc/
 data_components:
 - Warehouse
